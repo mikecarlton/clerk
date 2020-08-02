@@ -14,7 +14,6 @@ module Clerk
 
     def initialize
       @silence_warnings = false
-      @logger = ActiveSupport::Logger.new(STDOUT)
     end
   end
 end
