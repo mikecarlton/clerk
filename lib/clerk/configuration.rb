@@ -1,5 +1,3 @@
-require 'active_support/logger'
-
 module Clerk
   class << self
     attr_accessor :configuration
